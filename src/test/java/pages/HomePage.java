@@ -10,6 +10,7 @@ public class HomePage extends Utils {
 
     WebDriver driver;
     public HomePage(WebDriver driver) {
+
         this.driver = driver;
     }
 
@@ -17,12 +18,15 @@ public class HomePage extends Utils {
         driver.manage().window().maximize();
         driver.get("http://qazando.com.br/curso.html");
 
-        Assert.assertEquals("Não acesso a aplicação", true, driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
+        Assert.assertEquals("Não acesso a aplicação",
+                            true, driver.findElement(By.id("btn-ver-cursos")).isDisplayed());
     }
 
     public void scrollDown() throws InterruptedException {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollTo(0, 10000)");
+        Thread.sleep(2000);
+
     }
 
     public void preencheEmail(){

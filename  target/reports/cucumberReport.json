@@ -1,0 +1,64 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Visualizar código de desconto",
+        "description": "",
+        "id": "receber-o-cumpom-da-qazando;visualizar-código-de-desconto",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que estou no site da qazando",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "eu preencho meu e-mail",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "clico em ganhar cupom",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "eu vejo o código de desconto",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "receber o cumpom da qazando",
+    "description": "Eu como usuário da qazando\r\nquero receber um cupom de desconto\r\npara comprar um curso com valor reduzido",
+    "id": "receber-o-cumpom-da-qazando",
+    "keyword": "Funcionalidade",
+    "uri": "desconto.feature"
+  }
+]
